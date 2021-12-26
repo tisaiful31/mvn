@@ -2,7 +2,8 @@
 FROM centos:latest
 RUN mkdir /test
 RUN cd /test
-RUN yum update -y && yum install wget -y
+RUN yum update -y 
+RUN yum install wget -y
 RUN wget -O terraform.zip https://releases.hashicorp.com/terraform/0.12.2/terraform_0.12.2_linux_amd64.zip
 RUN echo "dhgfgjh" > hello.txt
 RUN ls -l
