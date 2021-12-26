@@ -2,7 +2,7 @@
 FROM ubuntu:latest
 RUN mkdir /test
 RUN cd /test
-RUN RUN wget -O terraform.zip https://releases.hashicorp.com/terraform/0.12.2/terraform_0.12.2_linux_amd64.zip
+RUN wget -O terraform.zip https://releases.hashicorp.com/terraform/0.12.2/terraform_0.12.2_linux_amd64.zip
 
 # Build stage
 #
